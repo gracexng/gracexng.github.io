@@ -126,7 +126,7 @@ img.pic:hover {
   font-family: "dk_drop_dead_gorgeousregular";
   font-size: 50px;
   text-align: center;
-  margin-top: 75px;
+  margin-top: 80px;
 }
 
 #basket {
@@ -192,7 +192,7 @@ img.pic:hover {
   background-color:#F9F6F0;
   width:50%;
   height:90%;
-  margin-right: 75px;
+  margin-right: 65px;
 }
 
 @media (min-width 768px) {
@@ -224,12 +224,12 @@ img.pic:hover {
 
 #location {
   margin-bottom: 50px;
-  margin-top: 25px;
+  margin-top: 18px;
   margin-left: 30px;
 }
 
 .suggestions {
-  margin-top: 110px;
+  margin-top: 105px;
   color: #A93F55;
   font-family: "dk_drop_dead_gorgeousregular";
   font-size: 50px;
