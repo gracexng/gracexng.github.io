@@ -219,7 +219,7 @@ img.pic:hover {
 }
 
 .places:hover {
-  font-weight: bold;
+  font-weight: normal;
 }
 
 #location {
