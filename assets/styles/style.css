@@ -23,7 +23,7 @@ h1 {
 
 .linkinfo {
   padding: 10px;
-  font-family: "Avenir Next";
+  font-family: "Poppins";
   color: #A93F55;
   font-size: 30px;
 }
@@ -148,7 +148,7 @@ img.pic:hover {
 }
 
 .words {
-  font-family: "Avenir Next";
+  font-family: "Poppins";
   color: #A93F55;
   padding-top: 20px;
   padding-bottom: 35px;
@@ -160,7 +160,7 @@ img.pic:hover {
 }
 
 .morewords {
-  font-family: "Avenir Next";
+  font-family: "Poppins";
   color: #A93F55;
   margin-top: -40px;
   padding-bottom: 35px;
@@ -208,7 +208,7 @@ img.pic:hover {
 }
 
 .places {
-  font-family: "Avenir Next";
+  font-family: "Poppins";
   color: #A93F55;
   text-decoration: none;
 }
