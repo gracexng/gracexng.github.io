@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'dk_drop_dead_gorgeousregular';
+    src: url('dk_drop_dead_gorgeous-webfont.woff2') format('woff2'),
+         url('dk_drop_dead_gorgeous-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-color: #F9F6F0;
+}
+
+div {
+  text-align: center;
+}
+
+h1 {
+  color: #A93F55;
+  margin-top: 50px;
+  font-family: "dk_drop_dead_gorgeousregular";
+  font-size: 80px;
+}
+
+.linkinfo {
+  padding: 10px;
+  font-family: "Avenir Next";
+  color: #A93F55;
+  font-size: 30px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
+  opacity: 60%;
+}
+
+#info {
+  margin-top: -30px;
+  margin-bottom: 30px;
+}
+
+.circle {
+  height: 600px;
+  width: 600px;
+  background-color: #F4EDE2;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 3.5s;
+}
+
+.dimsum {
+  display: inline;
+}
+
+.circle-container {
+  position: relative;
+  width: 24em;
+  height: 24em;
+  padding: 2.8em;
+  margin: 1.75em auto 0;
+  margin-left: 0px;
+  margin-top: 20px;
+}
+
+.circle-container a {
+  display: block;
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 4em; height: 4em;
+  margin: -2em;
+}
+
+.circle-container img { display: block; width: 300%; }
+.deg0 { transform: translate(12em); }
+.deg45 { transform: rotate(60deg) translate(12em) rotate(-60deg); }
+.deg135 { transform: rotate(125deg) translate(12em) rotate(-125deg); }
+.deg180 { transform: translate(-12em); }
+.deg225 { transform: rotate(240deg) translate(12em) rotate(-240deg); }
+.deg315 { transform: rotate(300deg) translate(12em) rotate(-300deg); }
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(359deg);
+    }
+}
+
+.hidden {
+  display: none;
+}
+
+#lightbox-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.lightbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    text-align: center;
+}
+
+img.pic:hover {
+  transform: scale(1.1);
+}
+
+.popup {
+  width: 250%;
+  height: auto;
+  margin-left: -377px;
+}
+
+.head {
+  color: #A93F55;
+  font-family: "dk_drop_dead_gorgeousregular";
+  font-size: 50px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+#basket {
+  width: 12%;
+  height: auto;
+  margin-top: -30px;
+}
+
+#basket:hover {
+  transform: scale(1.1);
+}
+
+#somanybaskets {
+  width: 85%;
+  height: auto;
+  padding-top: 20px;
+  margin-top: 40px;
+  margin-left: -10px;
+}
+
+.words {
+  font-family: "Avenir Next";
+  color: #A93F55;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-top: -20px;
+  margin-right: 10px;
+  line-height: 150%;
+}
+
+.morewords {
+  font-family: "Avenir Next";
+  color: #A93F55;
+  margin-top: -40px;
+  padding-bottom: 35px;
+  padding-right: 60px;
+  padding-left: 60px;
+  margin-right: 10px;
+  line-height: 150%;
+}
+
+#leftPanel {
+  position: relative;
+  float: left;
+  background-color: #F9F6F0;
+  width: 40%;
+  margin-left: 56px;
+}
+
+#outerContainer {
+  position: relative;
+  width: 100%;
+}
+
+#rightPanel {
+  float:right;
+  background-color:#F9F6F0;
+  width:50%;
+  height:90%;
+  margin-right: 75px;
+}
+
+@media (min-width 768px) {
+  .righttext {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+#mapped {
+  /*width: 85%;
+  height: auto;*/
+  padding-top: 35px;
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.places {
+  font-family: "Avenir Next";
+  color: #A93F55;
+  text-decoration: none;
+}
+
+.places:hover {
+  font-weight: bold;
+}
+
+#location {
+  margin-bottom: 50px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.suggestions {
+  margin-top: 110px;
+  color: #A93F55;
+  font-family: "dk_drop_dead_gorgeousregular";
+  font-size: 50px;
+  text-align: center;
+  margin-left: 30px;
+}
+
+#secondbasket {
+  width: 12%;
+  height: auto;
+  margin-top: -30px;
+  margin-left: 30px;
+}
+
+#secondbasket:hover {
+  transform: scale(1.2);
+}
