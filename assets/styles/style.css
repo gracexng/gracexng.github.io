@@ -126,7 +126,7 @@ img.pic:hover {
   font-family: "dk_drop_dead_gorgeousregular";
   font-size: 50px;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 75px;
 }
 
 #basket {
@@ -150,6 +150,7 @@ img.pic:hover {
 .words {
   font-family: "Poppins";
   font-weight: lighter;
+  font-size: 15px;
   color: #A93F55;
   padding-top: 20px;
   padding-bottom: 35px;
@@ -163,6 +164,7 @@ img.pic:hover {
 .morewords {
   font-family: "Poppins";
   font-weight: lighter;
+  font-size: 15px;
   color: #A93F55;
   margin-top: -40px;
   padding-bottom: 35px;
