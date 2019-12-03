@@ -23,7 +23,7 @@ h1 {
 
 .linkinfo {
   padding: 10px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   color: #A93F55;
   font-size: 30px;
 }
@@ -148,7 +148,7 @@ img.pic:hover {
 }
 
 .words {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: #A93F55;
@@ -162,7 +162,7 @@ img.pic:hover {
 }
 
 .morewords {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: lighter;
   font-size: 15px;
   color: #A93F55;
@@ -212,7 +212,7 @@ img.pic:hover {
 }
 
 .places {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: lighter;
   color: #A93F55;
   text-decoration: none;
